@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://4gq31t0c0at1"]
+
+[ext_resource type="PackedScene" uid="uid://gpwrxm6vokul" path="res://prefabs/player.tscn" id="1_q81rp"]
+[ext_resource type="PackedScene" uid="uid://bh1jgsm0d2yku" path="res://prefabs/enemy.tscn" id="2_uwpdg"]
+
+[node name="main" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_q81rp")]
+position = Vector2(209, 252)
+
+[node name="enemy" parent="." instance=ExtResource("2_uwpdg")]
+position = Vector2(272, 460)
+
+[node name="enemy5" parent="." instance=ExtResource("2_uwpdg")]
+position = Vector2(110, 425)
+
+[node name="enemy2" parent="." instance=ExtResource("2_uwpdg")]
+position = Vector2(345, 251)
+
+[node name="enemy3" parent="." instance=ExtResource("2_uwpdg")]
+position = Vector2(93, 274)
+rotation = -0.261799
+
+[node name="enemy4" parent="." instance=ExtResource("2_uwpdg")]
+position = Vector2(295, 125)
+rotation = -0.261799
